@@ -1,0 +1,17 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+  background: #121212;
+  background-image: url('../images/graphic.svg');
+  background-position: center;
+}
+
+.hide {
+  display: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,150 @@
+.hero {
+  padding: 0 20px;
+}
+.hero > .container {
+  padding-top: 40px;
+  display: flex;
+  gap: 31px;
+  flex-direction: column;
+  border-radius: 30px;
+  background: #1d1d1d;
+}
+@media (min-width: 768px) {
+  .hero > .container {
+    padding: 64px 32px 0;
+  }
+}
+@media (min-width: 1280px) {
+  .hero > .container {
+    flex-direction: row;
+    gap: 20px;
+    padding: 80px 50px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .hero > .container {
+    gap: 130px;
+  }
+}
+
+.hero-left {
+  max-width: 295px;
+}
+@media (min-width: 768px) {
+  .hero-left {
+    max-width: 517px;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-left {
+    max-width: 563px;
+  }
+}
+.hero-title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 60px;
+    line-height: 1.06;
+  }
+}
+@media (min-width: 1240px) {
+  .hero-title {
+    font-size: 64px;
+  }
+}
+@media (min-width: 1440px) {
+  .hero-title {
+  }
+}
+.hero-title-span {
+  color: #bea69e;
+  font-style: italic;
+}
+.hero-desc {
+  max-width: 418px;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .hero-desc {
+  }
+}
+@media (min-width: 1440px) {
+  .hero-desc {
+    margin-bottom: 137px;
+  }
+}
+.hero-wrapper {
+  display: flex;
+  gap: 40px;
+}
+.hero-users {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (min-width: 768px) {
+  .hero-users {
+    flex-direction: row;
+  }
+}
+.hero-list {
+  display: flex;
+}
+
+.hero-list-item {
+  position: relative;
+  z-index: var(--index);
+  width: 54px;
+  height: 54px;
+  border-radius: 100px;
+  border: 3px solid #1d1d1d;
+}
+.hero-list-item:not(:first-child) {
+  margin-left: -14px;
+}
+.hero-list-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.hero-users-right {
+  display: flex;
+  gap: 4px;
+  width: 89px;
+}
+.hero-users-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.25em; /* 125% */
+  letter-spacing: -0.64px;
+}
+.hero-reviews {
+  display: flex;
+  gap: 12px;
+}
+.star {
+  padding: 15px;
+  border-radius: 100px;
+  background: #bea69e;
+  width: 50px;
+  height: 50px;
+}
+.quantity-reviews {
+  display: block;
+  margin-bottom: 8px;
+}
+.hero-banner {
+  margin: auto;
+}

@@ -1,0 +1,82 @@
+/* Sign Up */
+.sign-up {
+  background-color: #121212;
+}
+.sign-up .container {
+  display: flex;
+  justify-content: space-between;
+}
+.sign-up-left {
+  width: 480px;
+}
+.sign-up-title {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.92px;
+}
+.sign-up-title-span {
+  color: #bea69e;
+}
+.sign-up-text {
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px; /* 125% */
+  letter-spacing: -0.32px;
+  width: 295px;
+}
+.sign-up-input {
+  display: block;
+  width: 100%;
+  padding: 14px 18px;
+  background-color: transparent;
+  margin-bottom: 8px;
+  height: 60px;
+  border-radius: 12px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sign-up-texarea {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 40px;
+  padding: 14px 18px;
+  height: 120px;
+  border-radius: 12px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  resize: none;
+}
+.sign-up-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  display: inline-flex;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-agreement {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+}
+.sign-up-link {
+  text-decoration-line: underline;
+  color: inherit;
+}
+
+.sign-up-right {
+  display: none;
+}
+@media (min-width: 1280px) {
+  .sign-up-right {
+    display: block;
+  }
+}

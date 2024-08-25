@@ -1,0 +1,40 @@
+/* Promo */
+.promo {
+  padding: 24px 0 24px 0;
+  background-color: #121212;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.promo .container {
+  overflow: hidden;
+}
+.promo-text {
+  width: fit-content;
+  color: #bea69e;
+  font-family: 'DM Sans';
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 108.475% */
+  letter-spacing: -1.18px;
+  text-transform: uppercase;
+  animation: running-text 10s linear infinite both;
+  text-wrap: nowrap;
+}
+@keyframes running-text {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.promo-text-span {
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -1.18px;
+  text-transform: uppercase;
+}

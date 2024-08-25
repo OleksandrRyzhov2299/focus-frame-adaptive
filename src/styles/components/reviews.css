@@ -1,0 +1,118 @@
+/* Reviews */
+.reviews {
+  background-color: #121212;
+}
+
+.reviews-title {
+  margin-bottom: 50px;
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px; /* 112.5% */
+  letter-spacing: -1.92px;
+}
+.reviews-list {
+  display: flex;
+  gap: 20px;
+}
+.reviews-author-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+@media (min-width: 768px) {
+  .reviews-author-rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.reviews-item {
+  padding: 20px;
+  width: 335px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+@media (min-width: 768px) {
+  .reviews-item {
+    width: 640px;
+  }
+}
+@media (min-width: 1280px) {
+  .reviews-item {
+    display: block;
+  }
+}
+
+.reviews-author {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.reviews-student {
+  margin-left: 10px;
+}
+.reviews-avatar {
+  width: 56px;
+  height: 56px;
+}
+.reviews-name {
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+.reviews-rank {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'DM Sans';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+.reviews-rating-stars {
+  margin-top: 10px;
+}
+@media (max-width: 767px) {
+  .reviews-rating-stars:not(.mobile-rating) {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .mobile-rating {
+    display: none;
+  }
+}
+.reviews-text {
+  width: 295px;
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
+}
+@media (min-width: 768px) {
+  .reviews-text {
+    width: 600px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1280px) {
+  .reviews-text {
+    width: 490px;
+  }
+}
+@media (min-width: 1440px) {
+  .reviews-text {
+    width: 570px;
+  }
+}
